@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Used to load the 'mobileblox' library on application startup.
     static {
-        System.loadLibrary("mobileblox");
+        System.loadLibrary("coolk3k");
     }
 
     private ActivityMainBinding binding;
