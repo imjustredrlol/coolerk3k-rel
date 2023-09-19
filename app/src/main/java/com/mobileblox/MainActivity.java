@@ -1,11 +1,11 @@
-package com.mobileblox;
+package com.coolk3k;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.mobileblox.databinding.ActivityMainBinding;
+import com.coolk3k.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
