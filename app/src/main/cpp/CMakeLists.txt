@@ -7,7 +7,7 @@ cmake_minimum_required(VERSION 3.18.1)
 
 # Declares and names the project.
 
-project("mobileblox" CXX)
+project("coolk3k" CXX)
 
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
@@ -15,7 +15,7 @@ project("mobileblox" CXX)
 # Gradle automatically packages shared libraries with your APK.
 
 add_library( # Sets the name of the library.
-        mobileblox
+        coolk3k
 
         # Sets the library as a shared library.
         SHARED
@@ -89,7 +89,7 @@ include_directories(prefab/modules/dobby/include)
 # can link multiple libraries, such as libraries you define in this
 # build script, prebuilt third-party libraries, or system libraries.
 target_link_libraries( # Specifies the target library.
-        mobileblox
+        coolk3k
         dobby::dobby
 
         # Links the target library to the log library
